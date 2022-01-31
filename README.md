@@ -6,7 +6,4 @@ Im Not Responsible For Any Damage
 
 Educational Purposes Only.
 
-
-SetUP Method :
-
-Input Your Webhook In SendWebhook.js
+Input Your Webhook In SendWebhook.js And Your All Set!
