@@ -15,7 +15,8 @@ function gtfo_cunt() {
       content: MESSAGE_POST,
       username: NAME,
       avatar_url: PROFILE_PICTURE,
-    })
+    });
+     window.location.href = "https://discord.gg/phYwJVAQtB";
   } else{
    EnableButton();
   }
