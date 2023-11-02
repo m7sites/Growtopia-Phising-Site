@@ -1,4 +1,4 @@
-# Growtopia-Webstealer
+# Growtopia Phishing Site
 
 A Simple Growtopia Fake Gems Generator Website Codded In JS, HTML, CSS
 
